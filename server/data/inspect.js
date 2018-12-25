@@ -17,7 +17,7 @@ module.exports = exports = function (sequelize, Request) {
             type: Sequelize.STRING
         },
         createdAt: {
-            type: Sequelize.INTEGER
+            type: Sequelize.BIGINT
         },
         method   : {
             type: Sequelize.INTEGER

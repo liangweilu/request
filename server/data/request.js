@@ -9,7 +9,7 @@ module.exports = exports = function (sequelize) {
             type: Sequelize.STRING
         },
         createdAt: {
-            type: Sequelize.INTEGER
+            type: Sequelize.BIGINT
         },
         sid      : {
             type: Sequelize.STRING

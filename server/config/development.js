@@ -1,10 +1,10 @@
 var config = {
     enableCompression: false,
     database         : {
-        username: '',
+        username: 'root',
         password: '',
         host    : 'localhost',
-        dialect : 'sqlite', //'mysql' | 'mariadb' | 'sqlite' | 'postgres' | 'mssql',
+        dialect : 'mysql', //'mysql' | 'mariadb' | 'sqlite' | 'postgres' | 'mssql',
         pool    : {
             max : 5,
             min : 0,
