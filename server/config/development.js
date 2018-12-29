@@ -2,8 +2,8 @@ var config = {
     enableCompression: false,
     database         : {
         username: 'root',
-        password: '',
-        host    : 'localhost',
+        password: 'root',
+        host    : '192.168.1.125',
         dialect : 'mysql', //'mysql' | 'mariadb' | 'sqlite' | 'postgres' | 'mssql',
         pool    : {
             max : 5,
